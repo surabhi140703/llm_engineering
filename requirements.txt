@@ -28,6 +28,7 @@ jupyter-dash
 beautifulsoup4
 pydub
 modal
+markdown
 ollama
 psutil
 setuptools
