@@ -19,7 +19,7 @@ KNOWLEDGE_BASE = str(Path(__file__).parent.parent / "knowledge-base")
 
 load_dotenv(override=True)
 
-embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
+embeddings = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
 
 
 def fetch_documents():
